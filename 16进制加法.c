@@ -5,14 +5,14 @@
 #include<stdlib.h>
 
 int main(void) {
-    long long a,b,sum;
-    while (scanf("%llX%llX",&a,&b)!=EOF) {
-        sum=a+b;
+    long long a,b;
+    while (scanf("%llx%llx",&a,&b)!=EOF) {
+        long long sum = a + b;
         if (sum<0) {
             printf("-");
-            printf("%llX\n",labs(sum));
+            printf("%llx\n",llabs(sum));
         }else {
-            printf("%llX\n",sum);
+            printf("%llx\n",sum);
         }
 
     }
