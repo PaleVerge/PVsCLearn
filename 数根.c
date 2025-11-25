@@ -4,7 +4,7 @@
 int main(void){
 	int final,current;
 	long long initial;
-	char s[100];
+	char s[10000];
 	while (scanf("%s", s)!=EOF){
 		if(strcmp(s,"0")==0){
 			break;
