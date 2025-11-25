@@ -11,8 +11,11 @@ int gcd(int a,int b){
 }
 int main(void){
 	int a,b;
-	while(scanf("%d%d",&a,&b)!=EOF){
-		printf("%d\n",gcd(a,b));
+	while(scanf("%d%d",&a,&b)){
+		if (a==0 && b==0) {
+			break;
+		}
+		printf("%d %d\n",gcd(a,b),a*b/gcd(a,b));
 	}
 	return 0;
 }
