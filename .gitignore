@@ -1,4 +1,3 @@
-.vs
-.idea
-Clion
-.exe
+/.vs/
+/Clion/
+*.exe
