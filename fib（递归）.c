@@ -6,9 +6,9 @@ int fib(int n){
 	return fib(n-1)+fib(n-2);
 }
 int main(void){
-	int n,i;
+	int n;
 	scanf("%d",&n);
-	for(i=1;i<=n;i++){
+	for(int i=1;i<=n;i++){
 		printf("%8d",fib(i));
 	}
 	return 0;
